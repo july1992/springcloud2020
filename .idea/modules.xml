@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloud-alibaba-provider-payment-9001/cloud-alibaba-provider-payment-9001.iml" filepath="$PROJECT_DIR$/cloud-alibaba-provider-payment-9001/cloud-alibaba-provider-payment-9001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-api/cloud-api.iml" filepath="$PROJECT_DIR$/cloud-api/cloud-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-config-center-3344/cloud-config-center-3344.iml" filepath="$PROJECT_DIR$/cloud-config-center-3344/cloud-config-center-3344.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-config-client-3355/cloud-config-client-3355.iml" filepath="$PROJECT_DIR$/cloud-config-client-3355/cloud-config-client-3355.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-consumer-feign-hystrix-order-80/cloud-consumer-feign-hystrix-order-80.iml" filepath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order-80/cloud-consumer-feign-hystrix-order-80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-consumer-feign-order-80/cloud-consumer-feign-order-80.iml" filepath="$PROJECT_DIR$/cloud-consumer-feign-order-80/cloud-consumer-feign-order-80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-consumer-order-80/cloud-consumer-order-80.iml" filepath="$PROJECT_DIR$/cloud-consumer-order-80/cloud-consumer-order-80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-eureka-server-7001/cloud-eureka-server-7001.iml" filepath="$PROJECT_DIR$/cloud-eureka-server-7001/cloud-eureka-server-7001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-eureka-server-7002/cloud-eureka-server-7002.iml" filepath="$PROJECT_DIR$/cloud-eureka-server-7002/cloud-eureka-server-7002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-eureka-server-7003/cloud-eureka-server-7003.iml" filepath="$PROJECT_DIR$/cloud-eureka-server-7003/cloud-eureka-server-7003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-getway-gatway-9527/cloud-getway-gatway-9527.iml" filepath="$PROJECT_DIR$/cloud-getway-gatway-9527/cloud-getway-gatway-9527.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-provide-hystrix-payment-8001/cloud-provide-hystrix-payment-8001.iml" filepath="$PROJECT_DIR$/cloud-provide-hystrix-payment-8001/cloud-provide-hystrix-payment-8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-provide-payment-8001/cloud-provide-payment-8001.iml" filepath="$PROJECT_DIR$/cloud-provide-payment-8001/cloud-provide-payment-8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-provide-payment-8002/cloud-provide-payment-8002.iml" filepath="$PROJECT_DIR$/cloud-provide-payment-8002/cloud-provide-payment-8002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-provide-payment-8004/cloud-provide-payment-8004.iml" filepath="$PROJECT_DIR$/cloud-provide-payment-8004/cloud-provide-payment-8004.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud2020.iml" filepath="$PROJECT_DIR$/cloud2020.iml" />
+    </modules>
+  </component>
+</project>

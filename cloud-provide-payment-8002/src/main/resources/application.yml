@@ -1,0 +1,29 @@
+server:
+      port: 8002
+
+spring:
+  application:
+      name: cloud-payment-service
+
+  datasource:
+      type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
+      driver-class-name: org.gjt.mm.mysql.Driver              # mysql驱动包
+      url: jdbc:mysql://localhost:3306/vily?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8&useSSL=false
+      username: root
+      password: hanxiao
+
+eureka:
+
+  client:
+    register-with-eureka: true     #false表示不向注册中心注册自己。
+    #是否从eurekaServer抓取自己的注册信息，默认是true。
+    #单节点无所谓，集群必须设置为true擦能配个ribbon使用负载均衡
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
+  instance:
+    instance-id: payment8002
+    prefer-ip-address: true # 访问路径可以显示ip地址
+mybatis:
+  mapperLocations: classpath:mapper/*.xml
+  type-aliases-package: com.vily.springcloud.entities    # 所有Entity别名类所在包

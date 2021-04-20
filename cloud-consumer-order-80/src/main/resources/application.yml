@@ -1,0 +1,18 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: cloud-order-service
+
+eureka:
+  instance:
+    hostname: localhost
+    port: 7001
+  client:
+    register-with-eureka: true     #false表示不向注册中心注册自己。
+    #是否从eurekaServer抓取自己的注册信息，默认是true。
+    #单节点无所谓，集群必须设置为true擦能配个ribbon使用负载均衡
+    fetch-registry: true
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${eureka.instance.port}/eureka
+
